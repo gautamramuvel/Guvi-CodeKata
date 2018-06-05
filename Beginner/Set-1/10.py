@@ -1,3 +1,6 @@
-inp = input()
+inp = int(input())
 
-print(len(inp))
+if inp.isalpha() == False:    
+    print(len(inp))
+else:
+    print("Invalid Input")

@@ -6,3 +6,5 @@ elif inp < 0:
     print("Negative")
 elif inp == 0:
     print("Zero")
+else:
+    print("Invalid Input")
